@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Quan Ly Cua Hang Dien Thoai",
+            "request": "launch",
+            "mainClass": "com.quanlycuahang.MainApp",
+            "projectName": "QuanLyCuaHangDienThoai",
+            // Truyen duong dan thu muc lib de Windows Auth DLL duoc tim thay
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib -Dfile.encoding=UTF-8",
+            "classPaths": [
+                "${workspaceFolder}/lib/mssql-jdbc-13.4.0.jre11.jar",
+                "${workspaceFolder}/bin"
+            ]
+        }
+    ]
+}

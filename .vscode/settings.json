@@ -1,0 +1,24 @@
+{
+    // ============================================================
+    // Cau hinh Java Project cho VS Code
+    // ============================================================
+
+    // Thu vien JAR — tu dong them vao classpath khi build/run
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+
+    // Thu muc chua source code
+    "java.project.sourcePaths": [
+        "src"
+    ],
+
+    // Thu muc output (file .class sau khi compile)
+    "java.project.outputPath": "bin",
+
+    // Java version
+    "java.compile.nullAnalysis.mode": "automatic",
+
+    // Encoding UTF-8 de hien thi tieng Viet dung
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Dfile.encoding=UTF-8"
+}
